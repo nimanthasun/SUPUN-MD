@@ -6,15 +6,15 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'enter your session id' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'SUPUN-MD=yQsnkA5T#Ocvz8j0JHGvyXjiA_BSoR0pj-kqGScpNqBpIEjd_qbo' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94718461889' : process.env.OWNER_NUMBER,
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === undefined ?"true" : process.env.AUTO_STATUS_REACT,
-AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
-AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
+AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "true" : process.env.AUTO_VOICE,
+AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "true" : process.env.AUTO_REPLY,
 AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "true" : process.env.AUTO_STICKER,
 ANTI_BAD: process.env.ANTI_BAD === undefined ? "false" : process.env.ANTI_BAD,
 ANTI_LINK: process.env.ANTI_LINK === undefined ? "true" : process.env.ANTI_LINK,
@@ -24,7 +24,7 @@ WELCOME_GOODBYE: process.env.WELCOME_GOODBYE === undefined ? 'true' : process.en
 LEVEL_UP_MESSAGE: process.env.LEVEL_UP_MESSAGE === undefined ? 'true' : process.env.LEVEL_UP_MESSAGE,
 ANTI_DELETE: process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
 ANTI_BOT: process.env.ANTI_BOT === undefined ? "true" : process.env.ANTI_BOT,
-AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
+AI_CHAT: process.env.AI_CHAT === undefined ? "true" : process.env.AI_CHAT,
 ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "false" : process.env.ALLWAYS_OFFLINE,
 ALLWAYS_ONLINE: process.env.ALLWAYS_ONLINE === undefined ? "false" : process.env.ALLWAYS_ONLINE,
 AUTO_READ_CMD: process.env.AUTO_READ_CMD === undefined ? "true" : process.env.AUTO_READ_CMD,
